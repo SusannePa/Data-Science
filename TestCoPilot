@@ -1,0 +1,10 @@
+import pandas as pd
+
+# Replace 'your_file.csv' with the path to your CSV file
+file_path = 'C:\Users\IdeaPad\OneDrive\Dokument\DataScience\Bostadsenkät_2024.xlsx'
+
+# Read the CSV file into a DataFrame
+df = pd.read_excel(file_path)
+
+# Display the first few rows of the DataFrame
+print(df.head())

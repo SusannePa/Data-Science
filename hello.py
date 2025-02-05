@@ -1,3 +1,4 @@
+pip install pandas as pd
 print("Hello World")
 # (Hello World)
 

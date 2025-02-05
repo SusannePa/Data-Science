@@ -1,0 +1,8 @@
+import pandas as pd
+
+# Load the Excel file
+file_path = r"/workspaces/codespaces-jupyter/example.xlsx"
+data = pd.read_excel(file_path)
+
+# Display the first few rows of the dataframe
+print(data.head())
